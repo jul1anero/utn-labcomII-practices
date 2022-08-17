@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Hola investigadores!</h1>
+    </header>
+
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal / hicimos formulario con tabla-->
+        <main>
+            <table>
+                <tbody>
+                     <form action="index.html">
+                        <tr>
+                            <td><label for="nombre">Nombre: </label></td>
+                            <td><input type="text" id="nombre" name="nombre" required></td>   
+                        </tr> 
+                        <tr>
+                            <td><label for="mail">Email: </label></td>
+                            <td><input type="mail" id="mail" name="mail" required></td>
+                        </tr>  
+                        <tr>
+                            <td><label for="edad">Edad: </label></td>
+                            <td><input type="number" id="edad" name="edad"></td>
+                        </tr>     
+                        <tr>
+                            <td><label for="color">Color: </label></td>
+                            <td><input type="text" id="color" name="color"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Comentario">Comentario: </label></td>
+                            <td><input type="textarea" id="comentario" name="comentario" minlength="10" placeholder="minimo 10 caracteres"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="enviar"></td>
+                        </tr>
+                    </form>
+                    
+                </tbody>
+            </table>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p>Si quieres ser miembro y recibir nuestra revista semanal en la comodidad de tu casa, contactanos al <a href="tel:+3419123456">3419123456</a>.</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright MundoInteresante</p>
+    </footer>
+</body>
+</html>
