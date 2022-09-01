@@ -22,6 +22,9 @@ nav {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between; /*para que se distribuya en el contenedor*/
+    align-items: center; /*para que el logo y la lista se alineen entre sí horizontalmente */
 }
 
 .logo {
@@ -32,6 +35,7 @@ nav {
 
 .nav-links {
     list-style: none;
+    display: flex; /*cambia la alineación*/
 }
 
 .nav-item a {
