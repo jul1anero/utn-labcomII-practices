@@ -57,3 +57,6 @@ nav {
     /* aplicar color de texto de los links*/
     color: #007700;
 }
+.nav-item-login {
+    background-color: black
+}
