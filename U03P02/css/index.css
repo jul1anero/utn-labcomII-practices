@@ -23,8 +23,10 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    justify-content: space-between; /*para que se distribuya en el contenedor*/
-    align-items: center; /*para que el logo y la lista se alineen entre sí horizontalmente */
+    justify-content: space-between;
+    /*para que se distribuya en el contenedor*/
+    align-items: center;
+    /*para que el logo y la lista se alineen entre sí horizontalmente */
 }
 
 .logo {
@@ -35,7 +37,8 @@ nav {
 
 .nav-links {
     list-style: none;
-    display: flex; /*cambia la alineación*/
+    display: flex;
+    /*cambia la alineación*/
 }
 
 .nav-item a {
@@ -43,4 +46,14 @@ nav {
     padding: 10px 15px;
     text-decoration: none;
     color: #fff;
+}
+
+.nav-item:hover {
+    /* aplicar color de fondo */
+    background-color: rgb(150, 225, 147);
+}
+
+.nav-item:hover a {
+    /* aplicar color de texto de los links*/
+    color: #007700;
 }
