@@ -1,5 +1,6 @@
 * {
-    font-family: sans-serif; 
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245)
 }
 h1 {
     font-size: 24px;
@@ -19,6 +20,7 @@ p {
 li {
     font-family: monospace;
     font-size: 18px;
+    list-style-type: none;
 }
 a {
     color: black;
@@ -35,4 +37,10 @@ ul{
     border-style: solid;
     border-width: 2px;
     border-color: blue;
+    width: 40%;
 }
+
+.colorV{
+    color: green;
+}
+
