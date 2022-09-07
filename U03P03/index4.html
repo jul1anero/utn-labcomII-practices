@@ -1,0 +1,29 @@
+<!--Crea un cuadro de 300x300 px con un texto centrado tanto vertical como horizontalmente, como se ve en la imagen. El texto puede ser por ejemplo Capitulo Inicial, y tener formato de cabecera nivel 2. El color de fondo es rgba(193,219,210,1.00) y la letra sans-serif. El bloque no tiene que quedar centrado, solo el contenido-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Centrado total con flex</title>
+    <style>
+        .cuadro{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+            width: 300px;
+            height: 300px;
+            background: rgba(193,219,210,1.00);
+            padding: 0;
+            list-style: none;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cuadro"><h2>Capítulo Inicial</h2></div>
+
+</body>
+
+</html>
