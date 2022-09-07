@@ -21,6 +21,8 @@ li {
     font-family: monospace;
     font-size: 18px;
     list-style-type: none;
+    padding-bottom: 10px; 
+    
 }
 a {
     color: black;
@@ -38,9 +40,13 @@ ul{
     border-width: 2px;
     border-color: blue;
     width: 40%;
+    
 }
 
 .colorV{
     color: green;
 }
 
+li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
