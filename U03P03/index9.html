@@ -1,0 +1,49 @@
+<!--Se trata de utilizar los estilos flexbox para maquetar el cuerpo de la página en forma dos columnas, donde la columna derecha tiene a su vez dos filas iguales.
+    Las columnas se reparten el ancho en la relación 2:1, es decir, columna derecha será la mitad de la izquierda.
+    Para ver la estructura de la página como la imagen dar al body un padding de 20px, y a las columnas uno de 24px.
+    El color del fondo en la imagen es #0e7c74, y las filas llevan bordes sólidos de 1px en color lightgray-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>columnas con filas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            padding: 20px;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .izquierda {
+            flex: 2;
+            padding: 12px;
+            background: rgba(14, 124, 116, 1.00);
+            color: white;
+        }
+
+        .derecha {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .fila {
+            flex: 1 1 100%;
+            border: 1px solid lightgray;
+            padding: 24px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="izquierda">Columna izquierda</div>
+<div class="derecha">
+  <div class="fila">Derecha parte alta</div>
+  <div class="fila">Derecha parte baja</div>
+</div>
+</body>
+
+</html>
