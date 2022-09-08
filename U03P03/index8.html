@@ -1,0 +1,80 @@
+<!--En este ejercicio te propongo crear un card set o conjunto de tarjetas, todas con el mismo ancho y alto, este último dado por el contenido.
+    Cada una tendrá una barra de título de 40 px de alto y otra para el pie de 30px de alto, con los colores de la imagen.
+    El cuerpo ocupará el resto del espacio.
+    Las tarjetas se reparten horizontalmente, con el espacio libre repartido entre ellas y a los lados-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>card sets</title>
+    <style>
+        .contenedor {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+            box-shadow: 0px 0px 7px 0px lightgrey;
+            border: 0;
+        }
+
+        .cuerpo {
+            flex: 1 1 0;
+            padding: 8px;
+        }
+
+        .title {
+            background: black;
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+        }
+
+        .pie {
+            background: darkgray;
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="card">
+
+            <div class="title">Tarjeta Izquierda</div>
+
+            <div class="cuerpo">
+                <p>Contenido del cuerpo </p>
+                <p>Contenido del cuerpo </p>
+                <p>Contenido del cuerpo &nbsp;</p>
+            </div>
+            <div class="pie">Pie </div>
+        </div>
+        <div class="card">
+            <div class="title">Tarjeta centro</div>
+            <div class="cuerpo">
+                <p>Contenido del cuerpo </p>
+            </div>
+            <div class="pie">Pie </div>
+        </div>
+        <div class="card">
+            <div class="title">Tarjeta derecha</div>
+            <div class="cuerpo">
+                <p>Contenido del cuerpo </p>
+            </div>
+            <div class="pie">Pie </div>
+        </div>
+    </div>
+</body>
+
+</html>
