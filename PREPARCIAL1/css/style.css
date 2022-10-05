@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(226, 226, 226);
+}
+nav li{
+    display: inline-flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding:0 0 0 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.active{
+    padding: 0 0 15px;
+    border-style: none none solid;
+    border-color: black;
+    display: block;
+}
+.img-content{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.img-background{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    background-image: url("../css/img/utn-alumnos.jpg");
+    color: white;
+    width: 3900px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    padding: 5px;
+    width: 190px;
+    height: 50px;
+}
+
+.main-image{
+    display : flex;
+    flex-direction : row;
+}
